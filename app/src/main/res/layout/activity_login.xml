@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.slim_toshiba.udacitytuto.Login"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textColor="#1c2d75"
+    />
+    
+    <EditText
+        android:id="@+id/ed1"
+        android:hint="Enter Email .."
+        android:textColorHint="#bdbfbd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1c2d75"
+    />
+    
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textColor="#1c2d75"
+    />
+    
+    <EditText
+        android:id="@+id/ed2"
+        android:hint="Enter Password .."
+        android:textColorHint="#bdbfbd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1c2d75"
+        android:inputType="textPassword"
+    />
+    
+    <Button
+        android:background="#1c2d75"
+        android:layout_marginTop="50dp"
+        android:id="@+id/mylog"
+        android:onClick="toMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textStyle="italic|bold"
+    />
+
+
+</LinearLayout>

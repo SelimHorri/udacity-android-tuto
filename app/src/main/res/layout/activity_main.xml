@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/androidparty"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+    />
+    
+    <TextView
+        android:id="@+id/hap"
+        android:text="Happy new day Aymen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+    />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="toRamzi"
+        android:onClick="toRamzi"
+        />
+    
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:onClick="go"
+        android:padding="30dp"
+        android:text="toMain2"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+    />
+    
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:onClick="go"
+        android:padding="30dp"
+        android:text="toMain3"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+    />
+    
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:text="button"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+    />
+    
+    <Button
+        android:id="@+id/log"
+        android:onClick="go3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/btn5"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+    />
+    
+    <TextView
+        android:id="@+id/fr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For my Friend"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+    />
+
+</RelativeLayout>
